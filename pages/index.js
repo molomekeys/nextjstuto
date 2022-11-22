@@ -11,6 +11,12 @@ export default function Home() {
         Et animi asperiores eaque necessitatibus repudiandae officia, ex reiciendis quas perspiciatis sapiente dolor ad! Nisi in architecto reprehenderit. Explicabo labore aliquid reiciendis recusandae voluptatum nam commodi, quibusdam modi vero ipsum.
       </p>
       <Link href='/about'>Click </Link>
+      <div>
+        <p>Lorem ipsum do
+          lor sit amet consectetur, adipisicing elit. Enim expedita et maiores quidem veniam officia, iste dolorum ipsa numquam, explicabo ad, perferendis nesciunt doloremque eaque sunt adipisci laboriosam voluptat
+          em. Sequi?</p>
+        <Link href="/faq">Go to the FAQ</Link>
+      </div>
     </div>
   )
 }
