@@ -1,0 +1,24 @@
+div:has(a) {
+    margin-top: 100px;
+}
+
+a {
+
+
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(108.49deg, #AF53FF 0%, #6EACFE 95.17%);
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    padding: 15px;
+    margin: 20px;
+
+}

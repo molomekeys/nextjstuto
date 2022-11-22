@@ -10,12 +10,18 @@ export default function Home() {
         Sapiente deserunt corrupti voluptatum, inventore officiis quod excepturi eos repudiandae dolore pariatur at nulla! Dolores nisi reprehenderit aliquid rem tenetur optio repudiandae quae rerum maxime, dignissimos quaerat quo! Placeat, atque.
         Et animi asperiores eaque necessitatibus repudiandae officia, ex reiciendis quas perspiciatis sapiente dolor ad! Nisi in architecto reprehenderit. Explicabo labore aliquid reiciendis recusandae voluptatum nam commodi, quibusdam modi vero ipsum.
       </p>
-      <Link href='/about'>Click </Link>
       <div>
-        <p>Lorem ipsum do
-          lor sit amet consectetur, adipisicing elit. Enim expedita et maiores quidem veniam officia, iste dolorum ipsa numquam, explicabo ad, perferendis nesciunt doloremque eaque sunt adipisci laboriosam voluptat
-          em. Sequi?</p>
-        <Link href="/faq">Go to the FAQ</Link>
+        <Link href='/about' legacyBehavior>
+
+          <a>Go to the about page</a>
+        </Link>
+        <Link href='/faq' legacyBehavior>
+
+          <a>Go the Faq</a>
+        </Link>
+      </div>
+      <div>
+
       </div>
     </div>
   )
